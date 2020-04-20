@@ -1,7 +1,7 @@
-# CloningByPch
+
 # PAK-CYBER-HUNTERS
-HAMZA ALI ZAHID
-KAMRAN AHMED SIDDIQUI
+# HAMZA ALI ZAHID
+# KAMRAN AHMED SIDDIQUI
 FOLLOW COMMANDS STEP BY STEP 
 $ apt update && apt upgrade
 
@@ -21,4 +21,6 @@ $ pip2 install requests
 
 $ git clone https://github.com/HamzaAliPch/CloningByPch
 
-$ 
+$ cd CloningByPch
+
+$ python2 Hamzi.py
